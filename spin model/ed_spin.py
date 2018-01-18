@@ -31,9 +31,9 @@ def spin_correlation(n, op, gs):
     return spin_cor
 
 def Ham(n, J, hf, gamma, disorder):
-	'''
-	It is spin 1/2 chain with open boundary condition
-	'''
+    '''
+    It is spin 1/2 chain with open boundary condition
+    '''
     Jx, Jy, Jz = J
     hx, hy, hz = hf
     Jx = J[0] + disorder*(np.random.random(n-1)*2 -1 )
