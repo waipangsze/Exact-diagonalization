@@ -1,7 +1,7 @@
 !---------------------------------------------------------------
 program heisenberg_exact
 !---------------------------------------------------------------
-  !
+  !  Copyright from http://www.fisica.uniud.it/%7Egiannozz/Corsi/MQ/Software/F90/heisenberg_exact.f90
   !  Exact solution of isotropic 1-d Heisenberg model for s=1/2
   !  Periodic Boundary Conditions. energy in units of J.
   !  Lanczos algorithm vs conventional Hamiltonian diagonalization
