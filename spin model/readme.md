@@ -2,12 +2,12 @@
 
 2) ed_spin.py: It is spin 1/2 chain with open boundary condition, including N, J, h-field and disordr on each site.
 
-For spin 1/2 Heisenberg chain with open boundary condition,
+For spin 1/2 Heisenberg chain,
 
-| N  | E/N |
-| ------------- | ------------- |
-| 2  | -0.75  |
-| 3  | -1/3  |
-| 4 | -0.40400635 |
-| 5 | -0.38557725 |
-| 6 | -0.41559619 |
+| N  | E/N (OBC)| E/N (PBC) |
+| ------------- | ------------- |------------- |
+| 2  | -0.75  | -0.75 |
+| 3  | -1/3  | -0.25 |
+| 4 | -0.40400635 | -0.5 |
+| 5 | -0.38557725 | -0.3736067977 |
+| 6 | -0.41559619 | -0.4671292730 |
