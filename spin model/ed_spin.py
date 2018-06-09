@@ -1,3 +1,6 @@
+'''
+One dimensional random spin chain
+'''
 import numpy as np
 from numpy import linalg
 import time
